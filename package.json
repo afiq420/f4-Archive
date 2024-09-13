@@ -1,13 +1,19 @@
 {
-  "devDependencies": {
-    "vite": "^5.4.3"
-  },
-  "dependencies": {
-    "three": "^0.168.0"
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
   },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.168.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.3"
   }
 }
