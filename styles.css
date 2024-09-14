@@ -33,7 +33,7 @@ body {
 }
 
 .slider-reverse {
-    animation: slide-reverse 60s infinite linear;
+    animation: slide-reverse 38s infinite linear;
 }
 
 .slide {
@@ -75,7 +75,7 @@ img {
 
 @keyframes slide-reverse {
     0% {
-        transform: translateX(calc(-650px * 16));
+        transform: translateX(calc(-650px * 10));
     }
     100% {
         transform: translateX(0);
